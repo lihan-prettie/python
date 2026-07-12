@@ -28,7 +28,7 @@ def add_expense_data():
         except ValueError:
             print("請輸入有效的數字金額")
     
-    tag = input("請輸入消費分類").strip()
+    tag = input("請輸入消費分類: ").strip()
     return name, amount, tag
 
 def show_expenses(expense):
